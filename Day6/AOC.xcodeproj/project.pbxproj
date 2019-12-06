@@ -11,20 +11,18 @@
 		D59D477C21B6FC25006C2A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59D477B21B6FC25006C2A2F /* Assets.xcassets */; };
 		D59D477F21B6FC25006C2A2F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59D477D21B6FC25006C2A2F /* MainMenu.xib */; };
 		D59D478821B6FD41006C2A2F /* AoCInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = D59D478721B6FD41006C2A2F /* AoCInput.txt */; };
-		D5C6946A2398D43F00D5BB28 /* Intcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C694692398D43F00D5BB28 /* Intcode.swift */; };
-		D5C6946C2398E29200D5BB28 /* IOHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6946B2398E29200D5BB28 /* IOHandler.swift */; };
+		D5C6946E239A224900D5BB28 /* Orbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6946D239A224900D5BB28 /* Orbit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D59D477621B6FC24006C2A2F /* AOC2019-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOC2019-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D477621B6FC24006C2A2F /* AOC2019D6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2019D6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59D477921B6FC24006C2A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59D477B21B6FC25006C2A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D59D477E21B6FC25006C2A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D59D478021B6FC25006C2A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D59D478121B6FC25006C2A2F /* AOC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AOC.entitlements; sourceTree = "<group>"; };
 		D59D478721B6FD41006C2A2F /* AoCInput.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AoCInput.txt; sourceTree = "<group>"; };
-		D5C694692398D43F00D5BB28 /* Intcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intcode.swift; sourceTree = "<group>"; };
-		D5C6946B2398E29200D5BB28 /* IOHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOHandler.swift; sourceTree = "<group>"; };
+		D5C6946D239A224900D5BB28 /* Orbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orbit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +39,12 @@
 		D59D476D21B6FC24006C2A2F = {
 			isa = PBXGroup;
 			children = (
-				D5C6946B2398E29200D5BB28 /* IOHandler.swift */,
 				D59D477921B6FC24006C2A2F /* AppDelegate.swift */,
-				D5C694692398D43F00D5BB28 /* Intcode.swift */,
 				D59D477B21B6FC25006C2A2F /* Assets.xcassets */,
 				D59D477D21B6FC25006C2A2F /* MainMenu.xib */,
 				D59D478021B6FC25006C2A2F /* Info.plist */,
 				D59D478721B6FD41006C2A2F /* AoCInput.txt */,
+				D5C6946D239A224900D5BB28 /* Orbit.swift */,
 				D59D478121B6FC25006C2A2F /* AOC.entitlements */,
 				D59D477721B6FC24006C2A2F /* Products */,
 			);
@@ -56,7 +53,7 @@
 		D59D477721B6FC24006C2A2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D59D477621B6FC24006C2A2F /* AOC2019-5.app */,
+				D59D477621B6FC24006C2A2F /* AOC2019D6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D59D477521B6FC24006C2A2F /* AOC2019-5 */ = {
+		D59D477521B6FC24006C2A2F /* AOC2019D6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D59D478421B6FC25006C2A2F /* Build configuration list for PBXNativeTarget "AOC2019-5" */;
+			buildConfigurationList = D59D478421B6FC25006C2A2F /* Build configuration list for PBXNativeTarget "AOC2019D6" */;
 			buildPhases = (
 				D59D477221B6FC24006C2A2F /* Sources */,
 				D59D477321B6FC24006C2A2F /* Frameworks */,
@@ -76,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = "AOC2019-5";
+			name = AOC2019D6;
 			productName = "AOC2018-1";
-			productReference = D59D477621B6FC24006C2A2F /* AOC2019-5.app */;
+			productReference = D59D477621B6FC24006C2A2F /* AOC2019D6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D59D477521B6FC24006C2A2F /* AOC2019-5 */,
+				D59D477521B6FC24006C2A2F /* AOC2019D6 */,
 			);
 		};
 /* End PBXProject section */
@@ -132,9 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6946C2398E29200D5BB28 /* IOHandler.swift in Sources */,
 				D59D477A21B6FC24006C2A2F /* AppDelegate.swift in Sources */,
-				D5C6946A2398D43F00D5BB28 /* Intcode.swift in Sources */,
+				D5C6946E239A224900D5BB28 /* Orbit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +275,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = microsoft.com.AOC2019D5;
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.com.AOC2019D6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -297,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = microsoft.com.AOC2019D5;
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.com.AOC2019D6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -315,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D59D478421B6FC25006C2A2F /* Build configuration list for PBXNativeTarget "AOC2019-5" */ = {
+		D59D478421B6FC25006C2A2F /* Build configuration list for PBXNativeTarget "AOC2019D6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D59D478521B6FC25006C2A2F /* Debug */,

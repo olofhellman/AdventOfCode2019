@@ -3,7 +3,6 @@
 //  Advent of Code 2019
 //
 //  Created by olof on 12/4/18.
-//  Copyright © 2018 Microsoft. All rights reserved.
 //
 
 import Cocoa
