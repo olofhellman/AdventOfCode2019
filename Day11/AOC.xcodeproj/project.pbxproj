@@ -12,14 +12,9 @@
 		D59D477F21B6FC25006C2A2F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59D477D21B6FC25006C2A2F /* MainMenu.xib */; };
 		D59D478821B6FD41006C2A2F /* AoCInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = D59D478721B6FD41006C2A2F /* AoCInput.txt */; };
 		D5C69470239B4FC700D5BB28 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6946F239B4FC700D5BB28 /* Rectangle.swift */; };
-		D5C69472239B4FCB00D5BB28 /* BoolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C69471239B4FCB00D5BB28 /* BoolGrid.swift */; };
-		D5C69474239B4FD100D5BB28 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C69473239B4FD100D5BB28 /* Grid.swift */; };
 		D5C69477239B518400D5BB28 /* IOHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C69475239B518300D5BB28 /* IOHandler.swift */; };
 		D5C69478239B518400D5BB28 /* Intcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C69476239B518300D5BB28 /* Intcode.swift */; };
 		D5C6947A239B51AD00D5BB28 /* StringSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C69479239B51AD00D5BB28 /* StringSubscripts.swift */; };
-		D5C6947C239B520700D5BB28 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6947B239B520700D5BB28 /* Tree.swift */; };
-		D5C6947E239F7C5800D5BB28 /* IntGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6947D239F7C5800D5BB28 /* IntGrid.swift */; };
-		D5C69480239F98B300D5BB28 /* Double+IntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6947F239F98B300D5BB28 /* Double+IntegerTest.swift */; };
 		D5C6948223A0C93C00D5BB28 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6948123A0C93C00D5BB28 /* Canvas.swift */; };
 		D5C6948423A0C9C000D5BB28 /* PixelGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6948323A0C9BF00D5BB28 /* PixelGrid.swift */; };
 		D5C6948623A0D31700D5BB28 /* PaintRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6948523A0D31700D5BB28 /* PaintRobot.swift */; };
@@ -34,14 +29,9 @@
 		D59D478121B6FC25006C2A2F /* AOC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AOC.entitlements; sourceTree = "<group>"; };
 		D59D478721B6FD41006C2A2F /* AoCInput.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AoCInput.txt; sourceTree = "<group>"; };
 		D5C6946F239B4FC700D5BB28 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
-		D5C69471239B4FCB00D5BB28 /* BoolGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolGrid.swift; sourceTree = "<group>"; };
-		D5C69473239B4FD100D5BB28 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		D5C69475239B518300D5BB28 /* IOHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOHandler.swift; sourceTree = "<group>"; };
 		D5C69476239B518300D5BB28 /* Intcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intcode.swift; sourceTree = "<group>"; };
 		D5C69479239B51AD00D5BB28 /* StringSubscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringSubscripts.swift; sourceTree = "<group>"; };
-		D5C6947B239B520700D5BB28 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
-		D5C6947D239F7C5800D5BB28 /* IntGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntGrid.swift; sourceTree = "<group>"; };
-		D5C6947F239F98B300D5BB28 /* Double+IntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+IntegerTest.swift"; sourceTree = "<group>"; };
 		D5C6948123A0C93C00D5BB28 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		D5C6948323A0C9BF00D5BB28 /* PixelGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixelGrid.swift; sourceTree = "<group>"; };
 		D5C6948523A0D31700D5BB28 /* PaintRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintRobot.swift; sourceTree = "<group>"; };
@@ -62,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				D5C6948523A0D31700D5BB28 /* PaintRobot.swift */,
-				D5C6947B239B520700D5BB28 /* Tree.swift */,
 				D59D477921B6FC24006C2A2F /* AppDelegate.swift */,
 				D59D477B21B6FC25006C2A2F /* Assets.xcassets */,
 				D59D477D21B6FC25006C2A2F /* MainMenu.xib */,
@@ -70,12 +59,8 @@
 				D59D478721B6FD41006C2A2F /* AoCInput.txt */,
 				D5C69476239B518300D5BB28 /* Intcode.swift */,
 				D5C69475239B518300D5BB28 /* IOHandler.swift */,
-				D5C69471239B4FCB00D5BB28 /* BoolGrid.swift */,
-				D5C6947D239F7C5800D5BB28 /* IntGrid.swift */,
 				D5C6948323A0C9BF00D5BB28 /* PixelGrid.swift */,
 				D5C6948123A0C93C00D5BB28 /* Canvas.swift */,
-				D5C6947F239F98B300D5BB28 /* Double+IntegerTest.swift */,
-				D5C69473239B4FD100D5BB28 /* Grid.swift */,
 				D5C6946F239B4FC700D5BB28 /* Rectangle.swift */,
 				D5C69479239B51AD00D5BB28 /* StringSubscripts.swift */,
 				D59D478121B6FC25006C2A2F /* AOC.entitlements */,
@@ -162,19 +147,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6947E239F7C5800D5BB28 /* IntGrid.swift in Sources */,
 				D5C6948223A0C93C00D5BB28 /* Canvas.swift in Sources */,
-				D5C69480239F98B300D5BB28 /* Double+IntegerTest.swift in Sources */,
 				D5C69477239B518400D5BB28 /* IOHandler.swift in Sources */,
 				D5C69470239B4FC700D5BB28 /* Rectangle.swift in Sources */,
 				D59D477A21B6FC24006C2A2F /* AppDelegate.swift in Sources */,
 				D5C6948623A0D31700D5BB28 /* PaintRobot.swift in Sources */,
-				D5C69474239B4FD100D5BB28 /* Grid.swift in Sources */,
 				D5C6947A239B51AD00D5BB28 /* StringSubscripts.swift in Sources */,
-				D5C6947C239B520700D5BB28 /* Tree.swift in Sources */,
 				D5C69478239B518400D5BB28 /* Intcode.swift in Sources */,
 				D5C6948423A0C9C000D5BB28 /* PixelGrid.swift in Sources */,
-				D5C69472239B4FCB00D5BB28 /* BoolGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
