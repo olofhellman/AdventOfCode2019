@@ -33,33 +33,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func getTestInputPart2() -> String {
          return "3,26,1001,26,-4,26,3,27,1002,27,2,27,1,27,26,27,4,27,1001,28,-1,28,1005,28,6,99,0,0,5"
     }
-    
-    func getPermutations (from elements:[Int]) -> [[Int]] {
-        var permutations:[[Int]] = []
-        if elements.count == 1 {
-            return [elements]
-        }
-        
-        for element in elements {
-            let rest = elements.filter({$0 != element})
-            let subpermutations = getPermutations(from:rest)
-            for subperm in subpermutations {
-                permutations.append([element] + subperm)
-            }
-        }
-        return permutations
-    }
-    
-    func getPermutations() -> [[Int]] {
-        let perms =  getPermutations(from:[0,1,2,3,4])
-        print ("got permutations: \(perms)")
-        return perms
-    }
-    func getPermutationsPart2() -> [[Int]] {
-        let perms =  getPermutations(from:[5,6,7,8,9])
-        print ("got permutations: \(perms)")
-        return perms
-    }
 
     func getTestInputPart1() -> String {
           return """
@@ -255,9 +228,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        testAoCPart1()
+         testAoCPart1()
          doAoCPart1()
-          //testAoCPart2()
+         testAoCPart2()
          doAoCPart2()
     }
 
