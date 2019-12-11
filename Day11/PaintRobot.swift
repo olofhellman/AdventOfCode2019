@@ -1,6 +1,6 @@
 import Foundation
 
-class Day11Part1Robot : IOHandler {
+class PaintRobot : IOHandler {
 
     public var canvas:Canvas
     var position:Position
