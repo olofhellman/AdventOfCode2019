@@ -51,7 +51,6 @@
 		D59D476D21B6FC24006C2A2F = {
 			isa = PBXGroup;
 			children = (
-				D5C6948523A0D31700D5BB28 /* PaintRobot.swift */,
 				D59D477921B6FC24006C2A2F /* AppDelegate.swift */,
 				D59D477B21B6FC25006C2A2F /* Assets.xcassets */,
 				D59D477D21B6FC25006C2A2F /* MainMenu.xib */,
@@ -59,6 +58,7 @@
 				D59D478721B6FD41006C2A2F /* AoCInput.txt */,
 				D5C69476239B518300D5BB28 /* Intcode.swift */,
 				D5C69475239B518300D5BB28 /* IOHandler.swift */,
+				D5C6948523A0D31700D5BB28 /* PaintRobot.swift */,
 				D5C6948323A0C9BF00D5BB28 /* PixelGrid.swift */,
 				D5C6948123A0C93C00D5BB28 /* Canvas.swift */,
 				D5C6946F239B4FC700D5BB28 /* Rectangle.swift */,

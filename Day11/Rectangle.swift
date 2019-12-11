@@ -1,11 +1,3 @@
-//
-//  Rectangle.swift
-//  AOC2018
-//
-//  Created by olof on 12/5/18.
-//  Copyright © 2018 Microsoft. All rights reserved.
-//
-
 import Foundation
 
 struct IntVector {

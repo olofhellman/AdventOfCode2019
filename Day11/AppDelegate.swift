@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Advent of Code 2019
-//
-//  Created by olof on 12/4/18.
-//
-
 import Cocoa
 
 @NSApplicationMain

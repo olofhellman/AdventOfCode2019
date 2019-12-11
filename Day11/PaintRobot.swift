@@ -1,13 +1,4 @@
-//
-//  PaintRobot.swift
-//  AOC2019D11
-//
-//  Created by Olof Hellman on 12/10/19.
-//  Copyright © 2019 Microsoft. All rights reserved.
-//
-
 import Foundation
-
 
 class Day11Part1Robot : IOHandler {
 

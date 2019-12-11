@@ -1,10 +1,3 @@
-//
-//  IOHandler.swift
-//  Advent of Code 2019
-//
-//  Created by Olof Hellman on 12/4/19.
-//
-
 import Foundation
 
 protocol IOHandler {
